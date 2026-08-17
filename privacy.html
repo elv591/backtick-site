@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Backtick — Privacy Policy</title>
+<style>
+  body { background:#000; color:rgba(255,255,255,.92); font-family:ui-monospace,'SF Mono',Menlo,monospace;
+         max-width:640px; margin:0 auto; padding:48px 24px; line-height:1.6; }
+  h1 { font-size:20px; letter-spacing:2px; }
+  h2 { font-size:14px; margin-top:32px; color:rgba(255,255,255,.92); }
+  p, li { font-size:14px; color:rgba(255,255,255,.70); }
+  .prompt { color:#FF5A1A; }
+  a { color:#FF5A1A; }
+  hr { border:none; border-top:1px solid rgba(255,255,255,.16); margin:24px 0; }
+</style>
+</head>
+<body>
+<p class="prompt">$ cat privacy.txt</p>
+<h1>PRIVACY POLICY</h1>
+<p>Effective August 2026 · applies to Backtick, the terminal-widgets app by Elvis Mederos.</p>
+<hr>
+<h2>The short version</h2>
+<p>The app collects nothing. There is no server, no account, no analytics, no
+tracking, and no third-party SDK. Nothing you do in the app is transmitted to
+the developer or anyone else.</p>
+<h2>What the app reads, and where it stays</h2>
+<ul>
+  <li><strong>Calendar and reminders</strong> — read on your device through
+      Apple's EventKit, only to draw them in your widgets. Never transmitted.</li>
+  <li><strong>Location</strong> — an approximate coordinate is used to request
+      local weather from Apple Weather (WeatherKit), via Apple's own framework
+      under Apple's <a href="https://weatherkit.apple.com/legal-attribution.html">terms</a>.
+      The developer never receives it.</li>
+  <li><strong>Health</strong> — steps, walking distance and active energy are
+      read on-device through Apple HealthKit, only to draw them in your
+      widgets. Health data is never transmitted anywhere and is never used for
+      any other purpose.</li>
+  <li><strong>Device stats</strong> — battery, storage and uptime are read
+      locally for the system panel.</li>
+</ul>
+<p>All of it lives on your device (and in the app's private App Group storage
+shared with its own widgets). Deleting the app deletes everything.</p>
+<h2>Purchases</h2>
+<p>The one-time Pro unlock is processed entirely by Apple. The developer sees
+only Apple's standard anonymized sales reporting.</p>
+<h2>Permissions are optional</h2>
+<p>Every permission can be declined or revoked in Settings; the matching widget
+panel simply goes dark.</p>
+<h2>Changes & contact</h2>
+<p>If this policy ever changes, the new version will be posted at this address.
+Questions: <a href="mailto:elvis.mederos@yahoo.com">elvis.mederos@yahoo.com</a></p>
+<p class="prompt">$ _</p>
+</body>
+</html>
